@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+h2 {
+    padding-top:5em;
+    padding-bottom:5em;
+    text-align: center;
+}
+
+h3 {
+    padding-top:5em;
+    padding-bottom:5em;
+    text-align: center;
+    font-size: 14px;
+}
+
+p {
+    margin-left: 430px;
+    margin-right: 180px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.link1{
+    margin-left: 30px;
+    position: fixed;
+    bottom: 300px;
+    left: 0;
+    width: 250px;
+    border: 3px solid #73AD21;
+}
+
+.link2{
+    margin-left: 30px;
+    position: fixed;
+    bottom: 200px;
+    left: 0;
+    width: 250px;
+    border: 3px solid #73AD21;
+}
+
+.link3{
+    margin-left: 30px;
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    width: 250px;
+    border: 3px solid #73AD21;
+}
+
+.link4{
+    margin-left: 30px;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 250px;
+    border: 3px solid #73AD21;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    color:white;
+}
+
+a:hover {
+    color:dodgerblue;
+}
+
+a:active {
+    color:white;
+}
+
+main {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#centerImg {
+    padding-bottom: 5em;
+}
+
+#image {
+    width: 30%;
+    height: auto
+}
+
+.right {
+    text-align: right;
+}
+
+.left { 
+    text-align: left;
+}
+
+h2.left{
+    padding-top: 5em;
+}
+
+p.left{
+    padding-bottom: 5em;
+}
+
+#collage {
+    width: 30%;
+    height: 30%;
+}
+
+#right-container { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caption {
+    margin-left: 200px;
+    text-align: center;
+}
+
+.myimages {
+    margin-left: 500px;
+    padding-bottom: 2em;
+    width: 30%; 
+    height: 30%; 
+}
