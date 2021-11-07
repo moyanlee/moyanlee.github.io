@@ -91,3 +91,8 @@ a:active {
 .link2:active{
     color:black;
 }
+
+#heading{
+    color:rgb(126, 158, 190);
+    font-weight:300px;
+}
