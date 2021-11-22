@@ -1,0 +1,29 @@
+body {
+    background-image: url("06bg.jpg");
+    display: block;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    padding: 10vw;
+    margin: 2vh;
+    border: solid 3px transparent;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20pt;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
