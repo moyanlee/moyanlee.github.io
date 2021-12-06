@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: steelblue;
+}
+
+.carousel-container {
+    width: 728px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#prevbt {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#nextbt {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container .card {
+    position: relative;
+    width: 400px;
+    height: 180px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, .1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, .5);
+    border-left: 1px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(5px);
+}
+
+.container.card.content {
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+h2 {
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    font-size: 110px;
+    color: rgba(255, 255, 255, .1);
+    pointer-events: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+    position: flex;
+    font-size: 1.8em;
+    color: white;
+    z-index: 1;
+    font-family: 'Saira', sans-serif;
+    font-weight: 200px;
+}
+
+p {
+    position: flex;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, .45);
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+p:hover {
+    -webkit-text-fill-color: white;
+}
+
+#playbtn {
+    font-size: 24px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.player {
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+
+#current {
+    position: absolute;
+    left: 280px;
+    top: 60px;
+}
