@@ -2,11 +2,11 @@
 const carouselSlide = document.querySelector(".carousel-slide");
 const carouselImages = document.querySelectorAll(".carousel-slide img");
 const List = [
-    ['Spring', 'Sakura - Nightcore', "sakuranightcore.mp3"],
-    ['Rain', '【Free】Lucky', "freelucky.mp3"],
-    ['Star', 'Melancholy Galaxy', "melancholygalaxy.mp3"],
-    ['Spring', 'Sakura - Nightcore', "sakuranightcore.mp3"],
-    ['Rain', '【Free】Lucky', "freelucky.mp3"]
+    ['Spring', 'Sakura - Nightcore', "sakuranightcore.mp3", 'url(sakuragif.gif)'],
+    ['Rain', '【Free】Lucky', "freelucky.mp3", 'url(raingif.gif)'],
+    ['Star', 'Melancholy Galaxy', "melancholygalaxy.mp3", 'url(stargif.gif)'],
+    ['Spring', 'Sakura - Nightcore', "sakuranightcore.mp3", 'url(sakuragif.gif)'],
+    ['Rain', '【Free】Lucky', "freelucky.mp3", 'url(raingif.gif)']
 ];
 
 //buttons
@@ -30,8 +30,8 @@ function nextslide() {
     carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
     document.getElementById('theme').innerHTML = List[counter][0];
     document.getElementById('tit').innerHTML = List[counter][1];
-    document.getElementById('player').src = List[counter][2]
-
+    document.getElementById('player').src = List[counter][2];
+    document.getElementById('abc').style.backgroundImage = List[counter][3]
 }
 
 function lastslide() {
@@ -42,8 +42,9 @@ function lastslide() {
     counter--;
     carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)";
     document.getElementById('theme').innerHTML = List[counter][0];
-    document.getElementById('tite').innerHTML = List[counter][1];
-    document.getElementById('song').src = List[counter][2]
+    document.getElementById('tit').innerHTML = List[counter][1];
+    document.getElementById('player').src = List[counter][2];
+    document.getElementById('abc').style.backgroundImage = List[counter][3]
 
 }
 
